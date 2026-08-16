@@ -1,0 +1,9 @@
+# Lean build output — contains compiled copies of the reference proof and the
+# hidden grader. Must never be committed or shipped.
+.lake/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+dist/
+jobs/

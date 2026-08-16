@@ -1,0 +1,5 @@
+# Lean build output. MUST NEVER ship: .lake/build contains compiled .olean and
+# .ilean files for every module built locally — including the reference proof and
+# the hidden grader — and environment/Dockerfile COPYs the project directory into
+# the agent image verbatim.
+.lake/
